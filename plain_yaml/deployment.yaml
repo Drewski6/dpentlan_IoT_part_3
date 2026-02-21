@@ -6,8 +6,8 @@ spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
-  matchLabels:
-    app: wil42-app
+    matchLabels:
+      app: wil42-app
   template:
     metadata:
       labels:
