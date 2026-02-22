@@ -4,7 +4,7 @@ metadata:
   name: wil42-app
 spec:
   ports:
-  - port: 80
-    targetPort: 80
+  - port: 80 # Port outside
+    targetPort: 8888 # Port inside
   selector:
     app: wil42-app
